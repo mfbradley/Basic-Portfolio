@@ -69,6 +69,7 @@ section {
     left: 150px;
     border: hidden;
     background-color: #fff;
+    padding-bottom: 60px;
 }
 
 h2 {
@@ -88,12 +89,24 @@ h2 {
 
 .me {
     width: 160px;
-    position: relative;
-    left: 20px;
+    float: left;
+    margin: 20px;
 }
 
 p {
     color: #777;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.p1 {
+    margin-top: 30px;
+}
+
+.p2 {
+    margin-top: 10px;
 }
 
 aside {
@@ -169,14 +182,12 @@ input {
 
 .stock {
     float: left;
-    width: 160px;
-    height: 140px;
+    width: 200px;
+    height: 180px;
     border: hidden;
-    padding: 20px;
     position: relative;
-    left: 70px;
+    left: 80px;
     margin: 20px;
-    float: left;
 }
 
 .hangman,
@@ -184,11 +195,54 @@ input {
 .Trivia,
 .InfoWidget,
 .RockPaperScissors {
-    color: #777;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-color: #4aaaa5;
     padding: 10px;
     margin: 5px;
-    width: 60px;
+    width: 180px;
     float: left;
     z-index: 1;
+    position: absolute;
+}
+
+.hangman {
+    position: absolute;
+    top: 240px;
+    left: 95px;
+}
+
+.RPGgame {
+    position: absolute;
+    top: 240px;
+    left: 335px;
+}
+
+.Trivia {
+    position: absolute;
+    top: 460px;
+    left: 95px;
+}
+
+.InfoWidget {
+    position: absolute;
+    top: 460px;
+    left: 335px;
+}
+
+.RockPaperScissors {
+    position: absolute;
+    top: 680px;
+    left: 95px;
+}
+
+.portfoot {
+    position: relative;
+    top: 675px;
+}
+
+.footcontact {
+    position: relative;
+    top: 470px;
 }

@@ -4,7 +4,8 @@ This is a basic porfolio template designed using **HTML** and **CSS**. This temp
 
 The Resposive-Porfolio respository takes this template up a knotch, and includes a responsive design. Please check it out!
 
-[Responsive-Portfolio](https://mfbradley.github.io/Responsive-Portfolio/)
+[Responsive-Portfolio](https://mfbradley.github.io/Responsive-Portfolio/)  
+
 
 
 

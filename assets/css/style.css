@@ -2,8 +2,6 @@
 body {
     margin: auto;
     background-image: url("../images/norwegian_rose.png");
-
-
 }
 
 /* -----Nav Bar----- */
@@ -46,8 +44,6 @@ li {
     border-width: 1px;
     border-right-color: #777
 }
-/* -----End Nav Bar----- */
-
 
 /* Heading (Morgan Bradley) */
 h1 {
@@ -66,6 +62,8 @@ h1 {
     padding-top: 18px;
     padding-bottom: 18px;
 }
+/* -----End Nav Bar----- */
+
 
 /* -----Main Section for each page----- */
 section {
